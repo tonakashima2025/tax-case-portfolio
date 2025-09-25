@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>法人税_申告書下書き作成</label>
+    <protected>false</protected>
+    <values>
+        <field>Tax_Type__c</field>
+        <value xsi:type="xsd:string">法人税</value>
+    </values>
+    <values>
+        <field>Task_Name__c</field>
+        <value xsi:type="xsd:string">申告書下書き作成</value>
+    </values>
+    <values>
+        <field>Days_Before_Deadline__c</field>
+        <value xsi:type="xsd:double">14.0</value>
+    </values>
+    <values>
+        <field>Sort_Order__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+</CustomMetadata>

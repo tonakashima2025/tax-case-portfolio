@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="申告案件クイック作成">
+        <div class="slds-var-p-horizontal_small">
+            <lightning-combobox
+                name="taxType"
+                label="申告種別"
+                value={selectedTaxType}
+                placeholder="申告種別を選択"
+                options={taxTypeOptions}
+                onchange={handleTaxTypeChange}
+                class="slds-var-m-top_small">
+            </lightning-combobox>
+
+            <lightning-button
+                variant="brand"
+                label={buttonLabel}
+                onclick={handleCreateTaxCase}
+                disabled={isCreateDisabled}
+                class="slds-var-m-top_small">
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>
