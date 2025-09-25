@@ -132,13 +132,6 @@ private static Date addBusinessDays(Date startDate, Integer days) {
 }
 ```
 
-## 今後の拡張可能性
-
-- 電子申告システム連携
-- ワークフロー承認機能
-- モバイル対応強化
-- AI活用による作業時間予測
-
 ---
 
 **開発者**: 中島敏夫
